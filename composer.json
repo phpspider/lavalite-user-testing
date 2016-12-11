@@ -1,0 +1,21 @@
+{
+    "name": "test/test",
+    "description": "Test package for test.",
+    "keywords": ["lavalite", "Test"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Test\\": "src/Test/Test"
+        }
+    },
+    "minimum-stability": "dev"
+}
